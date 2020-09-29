@@ -17,5 +17,11 @@
     <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="5.6.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="Rule.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 
 </Project>
